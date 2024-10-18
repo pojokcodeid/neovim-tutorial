@@ -1,0 +1,24 @@
+{
+  "consoldotlog": {
+    "prefix": "console",
+    "body": [
+      "console.log(${1:objeck});"
+    ],
+    "description": "Display a message in the console"
+  },
+  "author": {
+    "prefix": "@author",
+    "body": [
+      "<!-- ",
+      "Author  = Pojok Code",
+      "email   = pojokcodeid@gmail.com",
+      "Github  = https://github.com/pojokcodeid",
+      "Youtube = https://youtube.com/pojokcode",
+      "Date    = $CURRENT_YEAR-$CURRENT_MONTH-${CURRENT_DATE}",
+      "File    = $TM_FILENAME",
+      "note    = Penyalahgunaan kode ini bukan tanggung jawab pojok code",
+      "-->"
+    ],
+    "description": "@author = Pojok Code"
+  }
+}
