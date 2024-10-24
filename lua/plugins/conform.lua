@@ -9,6 +9,7 @@ return {
 		opts.formatters = opts.formatters or {}
 		opts.formatters_by_ft = opts.formatters_by_ft or {}
 		opts.ensure_installed = opts.ensure_installed or {}
+		vim.list_extend(opts.ensure_installed, { "stylua" })
 		opts.lang_maps = opts.lang_maps or {}
 		opts.name_maps = opts.name_maps or {}
 		opts.add_new = opts.add_new or {}
