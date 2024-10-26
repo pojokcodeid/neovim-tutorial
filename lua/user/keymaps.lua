@@ -22,6 +22,7 @@ for _, mode in ipairs({ "i", "v", "n", "x" }) do
 	-- Move line
 	keymap(mode, "<M-Down>", "<cmd>m+<cr>", opts)
 	keymap(mode, "<M-Up>", "<cmd>m-2<cr>", opts)
+	keymap(mode, "<C-s>", "<cmd>w<cr>", opts)
 end
 
 -- close windows
