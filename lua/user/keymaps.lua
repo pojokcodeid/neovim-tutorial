@@ -19,11 +19,18 @@ for _, mode in ipairs({ "i", "v", "n", "x" }) do
 	-- duplicate line
 	keymap(mode, "<S-Down>", "<cmd>t.<cr>", opts)
 	keymap(mode, "<S-Up>", "<cmd>t -1<cr>", opts)
-	-- Move line
-	keymap(mode, "<M-Down>", "<cmd>m+<cr>", opts)
-	keymap(mode, "<M-Up>", "<cmd>m-2<cr>", opts)
-	keymap(mode, "<C-s>", "<cmd>w<cr>", opts)
+	-- save file
+	keymap(mode, "<C-s>", "<cmd>silent! w<cr>", opts)
 end
-
+-- duplicate line visual block
+keymap("x", "<S-Down>", ":'<,'>t'><cr>", opts)
+keymap("x", "<S-Up>", ":'<,'>t-1<cr>", opts)
+-- move text up and down
+keymap("x", "<A-Down>", ":move '>+1<CR>gv-gv", opts)
+keymap("x", "<A-Up>", ":move '<-2<CR>gv-gv", opts)
+keymap("n", "<M-Down>", "<cmd>m+<cr>", opts)
+keymap("i", "<M-Down>", "<cmd>m+<cr>", opts)
+keymap("n", "<M-Up>", "<cmd>m-2<cr>", opts)
+keymap("i", "<M-Up>", "<cmd>m-2<cr>", opts)
 -- close windows
 keymap("n", "q", "<cmd>q<cr>", opts)
