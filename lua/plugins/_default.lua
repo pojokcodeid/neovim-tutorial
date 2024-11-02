@@ -17,4 +17,13 @@ _G.LAZYGIT_TOGGLE = function()
 		lazygit:toggle()
 	end
 end
+
+_G.substring = function(text, key)
+	local index, _ = string.find(text, key)
+	if index then
+		return true
+	else
+		return false
+	end
+end
 return {}
