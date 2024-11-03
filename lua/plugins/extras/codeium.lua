@@ -19,4 +19,7 @@ return {
 			return vim.fn["codeium#Clear"]()
 		end, { expr = true, silent = true })
 	end,
+	keys = {
+		{ "<leader>c", ":call codeium#chat()<cr>", desc = "󰭹 codeium chat", mode = "n" },
+	},
 }
