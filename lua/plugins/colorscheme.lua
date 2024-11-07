@@ -7,8 +7,12 @@ return {
 		local dark = require("Eva-Theme.palette"):from_variant("dark")
 		opts.override_highlight = {
 			dark = {
+				["MiniIndentscopeSymbol"] = { fg = "#FF9070" },
+				["MiniIndentscopeSymbolOff"] = { fg = "#FF9070" },
 				["WinBar"] = { bg = dark.background },
 				["WinBarNC"] = { bg = dark.background },
+				["StatusLine"] = { bg = dark.background },
+				["StatusLineNC"] = { bg = dark.background },
 			},
 		}
 	end,
