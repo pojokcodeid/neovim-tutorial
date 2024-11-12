@@ -56,6 +56,7 @@
   "nvim-web-devicons": { "branch": "master", "commit": "19d257cf889f79f4022163c3fbb5e08639077bd8" },
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
   "promise-async": { "branch": "main", "commit": "119e8961014c9bfaf1487bf3c2a393d254f337e2" },
+  "rainbow-delimiters.nvim": { "branch": "master", "commit": "f22496dfdd46da4d571f5254c72eff65ff5a1c27" },
   "smart-splits.nvim": { "branch": "master", "commit": "ea4702652cb1d18811d60f2e206787602a2e946c" },
   "statuscol.nvim": { "branch": "main", "commit": "8822f76e105549620ef9c0d96e7b95aedf14c490" },
   "telescope.nvim": { "branch": "master", "commit": "85922dde3767e01d42a08e750a773effbffaea3e" },
