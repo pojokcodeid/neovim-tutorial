@@ -42,3 +42,13 @@ local options = {
 for k, v in pairs(options) do
 	vim.opt[k] = v
 end
+
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = { "http" },
+	callback = function()
+		local opt = vim.opt
+		opt.number = false
+		opt.preserveindent = false
+		opt.relativenumber = false
+	end,
+})
