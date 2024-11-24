@@ -27,6 +27,8 @@ require("lazy").setup({
 		-- import your plugins
 		{ import = "plugins" },
 		{ import = "plugins.extras" },
+		-- { import = "plugins.lang.angular" },
+		{ import = "plugins.lang.cpp" },
 	},
 
 	ui = {

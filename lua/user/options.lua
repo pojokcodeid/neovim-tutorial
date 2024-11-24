@@ -44,7 +44,7 @@ for k, v in pairs(options) do
 end
 
 vim.api.nvim_create_autocmd("FileType", {
-	pattern = { "http" },
+	pattern = { "mysql", "dbout", "dbui", "http" },
 	callback = function()
 		local opt = vim.opt
 		opt.number = false
