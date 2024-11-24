@@ -28,7 +28,8 @@ require("lazy").setup({
 		{ import = "plugins" },
 		{ import = "plugins.extras" },
 		-- { import = "plugins.lang.angular" },
-		{ import = "plugins.lang.cpp" },
+		-- { import = "plugins.lang.cpp" },
+		-- { import = "plugins.lang.deno" },
 	},
 
 	ui = {
