@@ -31,6 +31,7 @@ require("lazy").setup({
 		-- { import = "plugins.lang.cpp" },
 		-- { import = "plugins.lang.deno" },
 		-- { import = "plugins.lang.golang" },
+		{ import = "plugins.lang.java" },
 	},
 
 	ui = {
