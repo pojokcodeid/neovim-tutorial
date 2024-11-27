@@ -26,4 +26,9 @@ _G.substring = function(text, key)
 		return false
 	end
 end
+
+_G.all_trim = function(s)
+	return s:match("^%s*(.-)%s*$")
+end
+
 return {}

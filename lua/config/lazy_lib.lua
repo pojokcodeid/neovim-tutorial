@@ -32,7 +32,9 @@ require("lazy").setup({
 		-- { import = "plugins.lang.deno" },
 		-- { import = "plugins.lang.golang" },
 		-- { import = "plugins.lang.java" },
-		{ import = "plugins.lang.javascript" },
+		-- { import = "plugins.lang.javascript" },
+		{ import = "plugins.lang.kotlin" },
+		{ import = "plugins.lang.php" },
 	},
 
 	ui = {

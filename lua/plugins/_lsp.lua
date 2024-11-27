@@ -79,7 +79,6 @@ return {
 			opts.ensure_installed = opts.ensure_installed or {}
 			opts.automatic_installation = true
 			vim.list_extend(opts.ensure_installed, { "lua_ls" })
-			return opts
 		end,
 		config = function(_, opts)
 			require("mason-lspconfig").setup(opts)
