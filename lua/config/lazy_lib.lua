@@ -33,8 +33,8 @@ require("lazy").setup({
 		-- { import = "plugins.lang.golang" },
 		-- { import = "plugins.lang.java" },
 		-- { import = "plugins.lang.javascript" },
-		{ import = "plugins.lang.kotlin" },
-		{ import = "plugins.lang.php" },
+		-- { import = "plugins.lang.php" },
+		-- { import = "plugins.lang.kotlin" },
 	},
 
 	ui = {
