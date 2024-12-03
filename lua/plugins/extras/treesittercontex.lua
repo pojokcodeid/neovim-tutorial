@@ -4,7 +4,7 @@ return {
 	event = { "BufRead", "VeryLazy" },
 	opts = {},
 	keys = {
-		{ "<leader>T", "", desc = "  TS Context" },
-		{ "<leader>Tt", "<cmd>TSContextToggle<cr>", desc = "Toggle Context" },
+		{ "<leader>S", "", desc = "  TS Context" },
+		{ "<leader>St", "<cmd>TSContextToggle<cr>", desc = "Toggle Context" },
 	},
 }

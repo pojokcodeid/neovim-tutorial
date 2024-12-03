@@ -37,6 +37,7 @@ require("lazy").setup({
 		-- { import = "plugins.lang.kotlin" },
 		-- { import = "plugins.lang.markdown" },
 		-- { import = "plugins.lang.prisma" },
+		{ import = "plugins.lang.python" },
 	},
 
 	ui = {
